@@ -105,5 +105,19 @@ h2 strong {
 	color:#ccc;
 }
 
+#main-nav ul li a:hover{
+	background-color:#ccc;
+	color:#333;
+}
+
+#center{
+	width: 960px;
+	text-align:center;
+}
+strong {
+	font-weight:900;
+	font-size:48px;
+}
+
 
 		
