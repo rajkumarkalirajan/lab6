@@ -4,23 +4,23 @@ body	{
 
 #page-wrapper {
 	width:960px;
-	marging:0 auto;
-	box-shadow:0px 4px 8px 2px rgba(0,0,1);
+	margin:0 auto;
+	box-shadow:0px 4px 8px 2px rgba(0,0,1 0.5);
 	border-radius:12px 12px 0px 0px;
 }
 
 #header {
-	position relative;
+	position:relative;
 	margin-top:40px;
-	border-radius:12px 12px 0px opx;
+	border-radius:12px 12px 0px 0px;
 }
 
 #header hr {
-	position:absolure;
+	position:absolute;
 	left:420px;
 	top:5px;
 	font-size:3em;
-	font-family:"Devonshire',cursive;
+	font-family:'Devonshire',cursive;
 	color:#E35335;
 }
 
@@ -30,10 +30,10 @@ body	{
 	margin-bottom:20px;
 }
 
-#header#toplink {
+#header #toplink {
 	text-decoration:none;
-	position:absolure;
-	top-34px;
+	position:absolute;
+	top:34px;
 	right:10px;
 	color:white;
 	font-size:1.8em;
@@ -42,17 +42,17 @@ body	{
 #footer{
 	background-color:#777;
 	height:80px;
-	cler:both;
+	clear:both;
 }
 
-#contern-wrapper {
+#content-wrapper {
 	background-image:url("../image/repeating.png");
 	float:left;
 }
 
 #main-content{
 	min-height:300px;
-	width:75px;
+	width:75%;
 	margin-right:30px;
 	float:left;
 	margin-left:15px;
@@ -63,12 +63,12 @@ h2 strong {
 	font-weight:900;
 }
 
-;image-r{
+.image-r{
 	float:right;
 	border:2px solid blue;
 	width:300px;
 	padding:5px;
-	bacground-color:white;
+	background-color:white;
 	margin:10px 0 10px 20px;
 }
 
@@ -80,8 +80,8 @@ h2 strong {
 
 #main-nav{
 	float:left;
-	width:100%
-	background-color:#333;
+	width:100%;
+	background-color: #333;
 }
 #main-nav ul{
 	list-style-type:none;
